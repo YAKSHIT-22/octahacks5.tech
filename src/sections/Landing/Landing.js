@@ -40,11 +40,9 @@ const Landing = () => {
 				</div>
 				<div className="w-2/12 h-[1px] bg-white rounded-lg my-6 mx-4 border-white border-2"></div>
 				<div className="flex items-center flex-col lg:flex-row justify-center gap-7 w-[75%] md:w-1/2 lg:w-[75%] xl:w-1/2 p-4 m-1">
-					<div 
-	className="apply-button" 
-	data-hackathon-slug="OCTAHACKS" 
-	data-button-theme="light"
-></div>
+				<button className="p-2 w-full flex items-center  justify-center gap-4 text-sm md:text-md lg:text-lg font-semibold border-blue-700 border-2">
+							Apply Now
+						</button>
 					<a
 						href="https://discord.gg/qRCZGEFYAE"
 						className="w-full"
